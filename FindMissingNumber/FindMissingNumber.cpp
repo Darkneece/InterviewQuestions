@@ -1,11 +1,10 @@
-// ConsoleApplication2.cpp : Defines the entry point for the console application.
+// FindMissingNumber.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <iostream>
 
 
-int find_missing_num(int a[], int length)
+int FindMissingNumber(int a[], int length)
 {
 	if (a[length] - a[0] == length)
 	{
@@ -43,7 +42,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	aa[-1] = 20;
 
-	int r = find_missing_num( a, sizeof(a) / sizeof(int) );
+	int r = FindMissingNumber( a, sizeof(a) / sizeof(int) );
 
 	std::cout << "r = " << r << std::endl;
 	std::cin >> r;
