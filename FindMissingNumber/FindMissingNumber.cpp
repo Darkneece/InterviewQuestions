@@ -34,7 +34,7 @@ int FindMissingNumber(int a[], int length)
 	return a[binary_first] + 1;
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int _tmain(int argc, char* argv[])
 {
 	int a[] = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16 };
 
